@@ -1,5 +1,14 @@
-docker run -d --name logger devopsdockeruh/simple-web-service:alpine
-docker exec -it logger sh
+docker run - --name logger devopsdockeruh/simple-web-service:ubuntu
+docker run -d --name logger2 devopsdockeruh/simple-web-service:alpine
+
+docker inspect devopsdockeruh/simple-web-service:ubuntu
+Size: 82987469
+docker inspect devopsdockeruh/simple-web-service:alpine
+Size: 15698876
+Ubuntu is more than 5 times the size of Alpine.
+
+
+docker exec -it logger2 sh
 
 tail -f ./text.log
 
