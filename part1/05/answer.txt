@@ -1,4 +1,4 @@
-docker run - --name logger devopsdockeruh/simple-web-service:ubuntu
+docker run -d --name logger devopsdockeruh/simple-web-service:ubuntu
 docker run -d --name logger2 devopsdockeruh/simple-web-service:alpine
 
 docker inspect devopsdockeruh/simple-web-service:ubuntu
