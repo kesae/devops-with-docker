@@ -1,0 +1,5 @@
+# Build the container
+docker build . -t web-server
+
+# Run the container
+docker run web-server
