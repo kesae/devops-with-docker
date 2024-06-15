@@ -1,0 +1,5 @@
+# Build the container
+docker build . -t example-frontend
+
+# Run the container
+docker run --rm -it -p 127.0.0.1:5000:5000 example-frontend
