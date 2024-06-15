@@ -1,2 +1,3 @@
-# devops-with-docker
-Course answers
+# DevOps with Docker
+
+Answers to course assignments.
