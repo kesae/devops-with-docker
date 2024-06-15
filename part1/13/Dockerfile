@@ -6,5 +6,4 @@ COPY . .
 RUN go test ./...
 RUN go build
 EXPOSE 8080
-ENV REQUEST_ORIGIN=http://localhost:8080
 CMD ./server
